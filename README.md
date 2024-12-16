@@ -8,6 +8,7 @@ This view was ingested into Power BI for further processing.
 Created a view containing all relevant columns required for the reports by joining multiple tables.
 This view was ingested into Power BI for further processing.
 ## 3. Dimensions Tables:
+![model Logo](https://github.com/rishinawani/financial-statements/blob/main/model.PNG)
 The view was a denormalized table and was transformed into a star schema with four dimension tables:
 Dim_Account
 Dim_Region
