@@ -9,6 +9,7 @@ Created a view containing all relevant columns required for the reports by joini
 This view was ingested into Power BI for further processing.
 ## 3. Dimensions Tables:
 ![model Logo](https://github.com/rishinawani/financial-statements/blob/main/model.PNG)
+
 The view was a denormalized table and was transformed into a star schema with four dimension tables:
 Dim_Account
 Dim_Region
@@ -62,6 +63,7 @@ SWITCH(
 )
 
 Dynamically switches between subtotal and specific amounts based on selected headers.
+![Netflix Logo](https://github.com/rishinawani/financial-statements/blob/main/explain.PNG)
 
 ### Percentage of Revenue:
 
@@ -93,3 +95,6 @@ Operating Margin Ratio =
 VAR Operating_Margin = CALCULATE([I/S Subtotal], Dim_Headers[Category] = "EBIT")
 VAR Revenue = CALCULATE([I/S Amount], Dim_Headers[Category] = "Revenue")
 RETURN DIVIDE(Operating_Margin, Revenue, 0)
+
+![ Logo](https://github.com/rishinawani/financial-statements/blob/main/refresh%20dae.PNG)
+
