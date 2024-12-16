@@ -63,6 +63,7 @@ SWITCH(
 )
 
 Dynamically switches between subtotal and specific amounts based on selected headers.
+
 ![Netflix Logo](https://github.com/rishinawani/financial-statements/blob/main/explain.PNG)
 
 ### Percentage of Revenue:
